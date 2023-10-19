@@ -7,7 +7,7 @@ const options = {
     openapi: "3.0.0",
     info: { title: "API sobre Pokemones", version: "1.0.0" },
   },
-  apis: ["../routes/users.js", "../routes/pokemon.js"],
+  apis: ["./routes/users.js", "./routes/pokemon.js"],
 };
 
 // Docs in JSON format
